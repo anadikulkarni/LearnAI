@@ -1,0 +1,1087 @@
+[
+    {
+        "endpoint": "/user-login",
+        "request_data": {
+            "email": "azfar@example.com",
+            "password": "password"
+        },
+        "request_url": "http://localhost/user-login",
+        "response_status": 404,
+        "response_data": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/user-login",
+        "request_data": {
+            "email": "nonexistent@example.com",
+            "password": "password"
+        },
+        "request_url": "http://localhost/user-login",
+        "response_status": 404,
+        "response_data": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/user-login",
+        "request_data": {
+            "email": "azfar@example.com",
+            "password": "wrongpassword"
+        },
+        "request_url": "http://localhost/user-login",
+        "response_status": 404,
+        "response_data": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/user-logout",
+        "request_data": {},
+        "request_url": "http://localhost/user-logout",
+        "response_status": 404,
+        "response_data": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/user-logout",
+        "request_data": {
+            "email": "nonexistent@example.com"
+        },
+        "request_url": "http://localhost/user-logout",
+        "response_status": 404,
+        "response_data": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/user-logout",
+        "request_data": {
+            "email": "azfar@example.com"
+        },
+        "request_url": "http://localhost/user-logout",
+        "response_status": 404,
+        "response_data": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/user-signup",
+        "request_data": {
+            "email": "newuser@example.com",
+            "username": "newuser",
+            "password1": "newpassword",
+            "password2": "differentpassword"
+        },
+        "request_url": "http://localhost/user-signup",
+        "response_status": 404,
+        "response_data": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/user-signup",
+        "request_data": {
+            "email": "newuser@example.com",
+            "username": "newuser",
+            "password1": "newpassword",
+            "password2": "newpassword"
+        },
+        "request_url": "http://localhost/user-signup",
+        "response_status": 404,
+        "response_data": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/user-signup",
+        "request_data": {
+            "email": "azfar@example.com",
+            "username": "azfar2",
+            "password1": "newpassword",
+            "password2": "newpassword"
+        },
+        "request_url": "http://localhost/user-signup",
+        "response_status": 404,
+        "response_data": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/user-login",
+        "request_data": {
+            "email": "testuser@example.com",
+            "password": "password"
+        },
+        "request_url": "http://localhost/user-login",
+        "response_status": 404,
+        "response_data": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/user-login",
+        "request_data": {
+            "email": "nonexistent@example.com",
+            "password": "password"
+        },
+        "request_url": "http://localhost/user-login",
+        "response_status": 404,
+        "response_data": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/user-login",
+        "request_data": {
+            "email": "azfar@example.com",
+            "password": "password"
+        },
+        "request_url": "http://localhost/user-login",
+        "response_status": 404,
+        "response_data": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/categories",
+        "request_url": "http://localhost/api/categories",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/categories/1",
+        "request_url": "http://localhost/api/categories/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"name\": \"Linux\", \"created_at\": \"Thu, 08 Aug 2024 02:33:47 -0000\", \"updated_at\": \"Thu, 08 Aug 2024 02:33:47 -0000\", \"courses\": []}\n",
+        "time_taken": 0.08
+    },
+    {
+        "endpoint": "/api/categories",
+        "request_url": "http://localhost/api/categories",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"name\": \"Git basics\", \"created_at\": \"Thu, 08 Aug 2024 02:33:47 -0000\", \"updated_at\": \"Thu, 08 Aug 2024 02:33:47 -0000\", \"courses\": []}\n",
+        "time_taken": 0.08
+    },
+    {
+        "endpoint": "/api/categories/3",
+        "request_url": "http://localhost/api/categories/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"name\": \"Updated Degree Category\", \"created_at\": \"Thu, 08 Aug 2024 02:33:47 -0000\", \"updated_at\": \"Thu, 08 Aug 2024 02:33:48 -0000\", \"courses\": []}\n",
+        "time_taken": 0.56
+    },
+    {
+        "endpoint": "/api/categories/4",
+        "request_url": "http://localhost/api/categories/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.56
+    },
+    {
+        "endpoint": "/api/course_ratings",
+        "request_url": "http://localhost/api/course_ratings",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/course_ratings/1",
+        "request_url": "http://localhost/api/course_ratings/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Thu, 08 Aug 2024 02:33:55 -0000\", \"updated_at\": \"Thu, 08 Aug 2024 02:33:55 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-08T02:33:55.524699\", \"updated_at\": \"2024-08-08T02:33:55.524699\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.34
+    },
+    {
+        "endpoint": "/api/course_ratings",
+        "request_url": "http://localhost/api/course_ratings",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Thu, 08 Aug 2024 02:33:56 -0000\", \"updated_at\": \"Thu, 08 Aug 2024 02:33:56 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-08T02:33:55.524699\", \"updated_at\": \"2024-08-08T02:33:55.524699\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.4
+    },
+    {
+        "endpoint": "/api/course_ratings/3",
+        "request_url": "http://localhost/api/course_ratings/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"rating\": 5.0, \"comment\": \"Excellent course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Thu, 08 Aug 2024 02:33:56 -0000\", \"updated_at\": \"Thu, 08 Aug 2024 02:33:57 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-08T02:33:55.524699\", \"updated_at\": \"2024-08-08T02:33:55.524699\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 3, \"rating\": 5.0, \"comment\": \"Excellent course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.71
+    },
+    {
+        "endpoint": "/api/course_ratings/4",
+        "request_url": "http://localhost/api/course_ratings/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.62
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/courses/1",
+        "request_url": "http://localhost/api/courses/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"title\": \"Python for beginners\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": null, \"created_at\": \"2024-08-08T02:34:05.851503\", \"updated_at\": \"2024-08-08T02:34:05.851503\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.37
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"title\": \"New Course\", \"description\": \"Course description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": \"http://youtube.com/playlist\", \"created_at\": \"2024-08-08T02:34:06.232119\", \"updated_at\": \"2024-08-08T02:34:06.232119\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.08
+    },
+    {
+        "endpoint": "/api/courses/1",
+        "request_url": "http://localhost/api/courses/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"title\": \"Advanced python\", \"description\": \"Updated description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": \"http://youtube.com/updated-playlist\", \"created_at\": \"2024-08-08T02:34:06.321119\", \"updated_at\": \"2024-08-08T02:34:06.403119\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.18
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.17
+    },
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 200,
+        "response_data": "{\"token\": \"WyIzYzg4ODYwNWI0OGY0ZDY1YmJjNDYxNGZlZTgxYzUxNiJd.ZrQupw.LlQ5YOHsqUlTPciU2SmGMmUMI6E\", \"email\": \"testuser@example.com\", \"username\": \"testuser\", \"role\": \"user\", \"user_id\": 1}\n",
+        "time_taken": 0.32
+    },
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 400,
+        "response_data": "{\"message\": \"email not provided\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Wrong Password\"}\n",
+        "time_taken": 0.22
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 200,
+        "response_data": "{\"message\": \"You've signed up successfully! Welcome to Learn AI.\"}\n",
+        "time_taken": 0.56
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 400,
+        "response_data": "{\"message\": \"All fields are required and must be provided\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Passwords do not match\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 409,
+        "response_data": "{\"message\": \"Username not available, get creative\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 200,
+        "response_data": "{\"message\": \"Logged out successfully\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Already logged out!\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 401,
+        "response_data": "{\"message\": \"User not authenticated\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/categories",
+        "request_url": "http://localhost/api/categories",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/categories/1",
+        "request_url": "http://localhost/api/categories/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"name\": \"Linux\", \"created_at\": \"Tue, 13 Aug 2024 06:52:12 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:52:12 -0000\", \"courses\": []}\n",
+        "time_taken": 0.11
+    },
+    {
+        "endpoint": "/api/categories",
+        "request_url": "http://localhost/api/categories",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"name\": \"Git basics\", \"created_at\": \"Tue, 13 Aug 2024 06:52:12 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:52:12 -0000\", \"courses\": []}\n",
+        "time_taken": 0.04
+    },
+    {
+        "endpoint": "/api/categories/3",
+        "request_url": "http://localhost/api/categories/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"name\": \"Updated Degree Category\", \"created_at\": \"Tue, 13 Aug 2024 06:52:12 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:52:12 -0000\", \"courses\": []}\n",
+        "time_taken": 0.23
+    },
+    {
+        "endpoint": "/api/categories/4",
+        "request_url": "http://localhost/api/categories/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.13
+    },
+    {
+        "endpoint": "/api/course_ratings",
+        "request_url": "http://localhost/api/course_ratings",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/course_ratings/1",
+        "request_url": "http://localhost/api/course_ratings/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 06:52:15 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:52:15 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-13T06:52:15.426495\", \"updated_at\": \"2024-08-13T06:52:15.426502\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.12
+    },
+    {
+        "endpoint": "/api/course_ratings",
+        "request_url": "http://localhost/api/course_ratings",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 06:52:15 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:52:15 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-13T06:52:15.426495\", \"updated_at\": \"2024-08-13T06:52:15.426502\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.1
+    },
+    {
+        "endpoint": "/api/course_ratings/3",
+        "request_url": "http://localhost/api/course_ratings/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"rating\": 5.0, \"comment\": \"Excellent course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 06:52:15 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:52:15 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-13T06:52:15.426495\", \"updated_at\": \"2024-08-13T06:52:15.426502\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 3, \"rating\": 5.0, \"comment\": \"Excellent course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.14
+    },
+    {
+        "endpoint": "/api/course_ratings/4",
+        "request_url": "http://localhost/api/course_ratings/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.1
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/courses/1",
+        "request_url": "http://localhost/api/courses/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"title\": \"Python for beginners\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": null, \"created_at\": \"2024-08-13T06:52:18.279356\", \"updated_at\": \"2024-08-13T06:52:18.279364\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.1
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"title\": \"New Course\", \"description\": \"Course description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": \"http://youtube.com/playlist\", \"created_at\": \"2024-08-13T06:52:18.389988\", \"updated_at\": \"2024-08-13T06:52:18.390000\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.08
+    },
+    {
+        "endpoint": "/api/courses/1",
+        "request_url": "http://localhost/api/courses/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"title\": \"Advanced python\", \"description\": \"Updated description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": \"http://youtube.com/updated-playlist\", \"created_at\": \"2024-08-13T06:52:18.478795\", \"updated_at\": \"2024-08-13T06:52:18.536132\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.13
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.12
+    },
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 200,
+        "response_data": "{\"token\": \"eyJ2ZXIiOiI1IiwidWlkIjoiMWRkM2RmMzlmNWIzNGU1ODg5MDM2OTFkMDMwOGM0ZDciLCJmc19wYWEiOjE3MjM1MzE5NDEuMzc3NTUzLCJleHAiOjB9.ZrsCpQ.ip5_BzZQJdl-FVj2fkkvF-AnBzM\", \"email\": \"testuser@example.com\", \"username\": \"testuser\", \"role\": \"user\", \"user_id\": 1}\n",
+        "time_taken": 0.22
+    },
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 400,
+        "response_data": "{\"message\": \"email not provided\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Wrong Password\"}\n",
+        "time_taken": 0.15
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 200,
+        "response_data": "{\"message\": \"You've signed up successfully! Welcome to Learn AI.\"}\n",
+        "time_taken": 0.25
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 400,
+        "response_data": "{\"message\": \"All fields are required and must be provided\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Passwords do not match\"}\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 409,
+        "response_data": "{\"message\": \"Username not available, get creative\"}\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 200,
+        "response_data": "{\"message\": \"Logged out successfully\"}\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Already logged out!\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 401,
+        "response_data": "{\"message\": \"User not authenticated\"}\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/resources",
+        "request_url": "http://localhost/api/resources",
+        "response_status": 200,
+        "response_data": "[{\"id\": 1, \"url\": \"http://example.com/resource\", \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 06:52:24 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:52:24 -0000\", \"course\": {\"id\": 0, \"title\": null, \"description\": null}}]\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/resources/2",
+        "request_url": "http://localhost/api/resources/2",
+        "response_status": 200,
+        "response_data": "{\"id\": 2, \"url\": \"http://example.com/resource\", \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 06:52:24 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:52:24 -0000\", \"course\": {\"id\": 0, \"title\": null, \"description\": null}}\n",
+        "time_taken": 0.06
+    },
+    {
+        "endpoint": "/api/transcript",
+        "request_url": "http://localhost/api/transcript",
+        "response_status": 201,
+        "response_data": "{\"message\": \"Transcript added successfully\", \"transcript\": \"[Music] welcome to another module of the strategies for professional growth course as you can see this is an outbound training program or a session you can see we are outdoors right now all the activities related to the session will be outdoors why this outbound training this outbound training as the course indicates it is about learning strategies for growing professionally and one of the key things that we see in a in a in joining a corporate or in work atmosphere is to be able to work along with other people right as a team when you have to work you need to get along with people you need to be able to communicate well with them so that the group effect actually shows up okay as you can see um in some of these group activities as you can see when leander pes and mahesh were playing singles tournaments they had some rank but that was a very rank that was very far away from the top rank but when the two came together and played as a doubles team they were number one right so this group effect came into picture and they were able to get along very well in terms of being a team and could win matches that way they were number one for a very long time so what is very important here is we learned that group effect is going to fetch much more of a result compared to just individuals though individuals will have their own strengths a group brings out all these strengths together as a synergistic effect and you will see that in the results now you have a person who has gone through this who has trained so many people in the army what more would you need in terms of introducing this kind of outbound training to you and there you have colonel jay kumar who will introduce to you thank you sir thank you all right welcome ladies and gentlemen to the program that will follow it is a it's always a great privilege and honor to be inside the campus the only forested campus within a city i was told it is within in the entire asia you can't find such a place the greenery is something for which we cannot see elsewhere anywhere in a city one and two the the kind of buoyant mood one gets to see among the student whether it is the students or the young faculty even the elderly faculty everyone moving about in cycles there is no timing here it is 24 bar 7. 24 bar 7 is including the laboratories including something called center for innovation which professor shiva is the one who is the mastermind behind that whether it is cycling around whether it is tea shop the amount of number of tea shops that you opened here everything is really amazing in this place and add to it the credit of introducing outbound training as a part of life skills course in our institute and therefore we thought it should be it should be it should not be missed for any class which is related to professional growth all right as professor siva has already told you all this is all about working in a team while working in a team we we not only get an insight into our own personality traits our own limitations in some situations we also get to know the strengths of the people working around us our team members in fact sir i must tell you that a few years ago there was one it company which came along with me to a place called allegory here after two days of training there was one one part of the program was we are not going to do all of our obt here we are just giving a sample of two activities therefore i thought i must mention this so one of the activities that those people were made to do was the team of about 80 of them were their participants and we made them into 40 pairs buddy pairs and the instruction given was all right gentlemen ladies your buddy pair your buddy pair is now injured and he obviously cannot walk the nearest medical aid is about 50 meters away we drew a line and these people were in one line here and i said now please take your buddy there get your friend in whatever way whatever way you want you do now they didn't know what to do they didn't know how to pick up also like this or the back they did everything and finally with a little bit of hints uh people put the bodies on the shoulder like this like a lamb we have on our shoulders some pick them on the piggyback like we do in the schools and they started running so that's not what is important here what is important here is after those two days of activities in outbound training we could notice people were sitting close to each other jiggling giggling and talking shouting yelling everything the kind of bonding was great the the seniors just after this one single activity just these two days of just about this this activity made a lot of made a lot of difference probably that is the personal touch one gets into that one has the strength to take the other all the way all the way there which they didn't realize before yes yes that probably had a great impact upon the upon the thinking upon the perception upon many things within every individual some kind of bonding starts during the feedback one of the not one more than one they told us that they have been in the same office for over a year and they have not spoken to each other look at what it is they have not spoken to each other because they were sitting facing their backs one fellow is looking this side the other person is looking that side in that cubicle so that's what it is we are going to look primarily at completing a task not as an individual but as a group it is primarily a fun activity and i would i would advise you all to look for each of the individuals actions and behavior within the group how they are able to look at the bigger picture how an individual's contribution is taken by the team or rejected by the team and how one feels when when something is not going the way it is supposed to be going and all such things are there so to be observant and immersed in it immerse yourself into this program you will find they will one plan the first thing that they will all be doing is like any other task they have to plan they have to see the resources you have to plan see the resources also see each one will have a resource will be a resource each individual by himself or herself will be a resource and they have to look for something correct somebody who's a well-built fellow who can lift something very easily something who can sneak into some small little part and get the work done so all those things are and strangely sometimes you find the skill there that you did not notice earlier they did not notice so this planning issue is there and looking for resource available is there then keeping in mind the time constraint for example any project that you would see we will always be running against time here also we will put some kind of some of them will be very tensed some of them just will be thinking about what to do yes yes but eventually it gets done eventually they all they all merge and get the task completed so mid-course correction will be the next aspect which the people will be looking at another thing is picking up people who are lagging behind that is very important because the strength of a group lies in the weakest link i'm sure all of us heard this so you have to ensure that whoever is not so much capable of doing a particular thing please give him or her the shoulder and help her get over the whatever difficulty he or she faces that's what is the team spirit all about so shall we go sir yes\"}\n",
+        "time_taken": 2.0
+    },
+    {
+        "endpoint": "/api/transcript",
+        "request_url": "http://localhost/api/transcript",
+        "response_status": 400,
+        "response_data": "{\"error\": \"video_id and course_id are required\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/transcript/This is the transcript text",
+        "request_url": "http://localhost/api/transcript/This%20is%20the%20transcript%20text",
+        "response_status": 200,
+        "response_data": "{\"transcript\": \"This is the transcript text\"}\n",
+        "time_taken": 0.05
+    },
+    {
+        "endpoint": "/api/transcript/unknown_video_id",
+        "request_url": "http://localhost/api/transcript/unknown_video_id",
+        "response_status": 500,
+        "response_data": "{\"error\": \"\\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=unknown_video_id! This is most likely caused by:\\n\\nSubtitles are disabled for this video\\n\\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!\"}\n",
+        "time_taken": 0.89
+    },
+    {
+        "endpoint": "/api/transcript/Updated transcript text",
+        "request_url": "http://localhost/api/transcript/Original%20transcript%20text",
+        "response_status": 200,
+        "response_data": "{\"message\": \"Transcript updated successfully\", \"transcript\": \"Updated transcript text\"}\n",
+        "time_taken": 0.17
+    },
+    {
+        "endpoint": "/api/transcript/unknown_video_id",
+        "request_url": "http://localhost/api/transcript/unknown_video_id",
+        "response_status": 404,
+        "response_data": "{\"error\": \"Transcript not found\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/transcript/Transcript text to delete",
+        "request_url": "http://localhost/api/transcript/Transcript%20text%20to%20delete",
+        "response_status": 200,
+        "response_data": "{\"message\": \"Transcript deleted successfully\"}\n",
+        "time_taken": 0.11
+    },
+    {
+        "endpoint": "/api/transcript/unknown_video_id",
+        "request_url": "http://localhost/api/transcript/unknown_video_id",
+        "response_status": 404,
+        "response_data": "{\"error\": \"Transcript not found\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/videos",
+        "request_url": "http://localhost/api/videos",
+        "response_status": 200,
+        "response_data": "[{\"id\": 1, \"title\": \"Python Tutorial\", \"url\": \"https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU\", \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 06:53:01 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:53:01 -0000\", \"course\": {\"id\": 0, \"title\": null, \"description\": null}}]\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/videos/2",
+        "request_url": "http://localhost/api/videos/2",
+        "response_status": 200,
+        "response_data": "{\"id\": 2, \"title\": \"Python Tutorial\", \"url\": \"https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU\", \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 06:53:01 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:53:01 -0000\", \"course\": {\"id\": 0, \"title\": null, \"description\": null}}\n",
+        "time_taken": 0.05
+    },
+    {
+        "endpoint": "/api/categories",
+        "request_url": "http://localhost/api/categories",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/categories/1",
+        "request_url": "http://localhost/api/categories/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"name\": \"Linux\", \"created_at\": \"Tue, 13 Aug 2024 06:56:23 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:56:23 -0000\", \"courses\": []}\n",
+        "time_taken": 0.07
+    },
+    {
+        "endpoint": "/api/categories",
+        "request_url": "http://localhost/api/categories",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"name\": \"Git basics\", \"created_at\": \"Tue, 13 Aug 2024 06:56:24 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:56:24 -0000\", \"courses\": []}\n",
+        "time_taken": 0.06
+    },
+    {
+        "endpoint": "/api/categories/3",
+        "request_url": "http://localhost/api/categories/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"name\": \"Updated Degree Category\", \"created_at\": \"Tue, 13 Aug 2024 06:56:24 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:56:24 -0000\", \"courses\": []}\n",
+        "time_taken": 0.12
+    },
+    {
+        "endpoint": "/api/categories/4",
+        "request_url": "http://localhost/api/categories/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.11
+    },
+    {
+        "endpoint": "/api/course_ratings",
+        "request_url": "http://localhost/api/course_ratings",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/course_ratings/1",
+        "request_url": "http://localhost/api/course_ratings/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 06:56:26 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:56:26 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-13T06:56:26.793418\", \"updated_at\": \"2024-08-13T06:56:26.793429\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.12
+    },
+    {
+        "endpoint": "/api/course_ratings",
+        "request_url": "http://localhost/api/course_ratings",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 06:56:27 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:56:27 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-13T06:56:26.793418\", \"updated_at\": \"2024-08-13T06:56:26.793429\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.1
+    },
+    {
+        "endpoint": "/api/course_ratings/3",
+        "request_url": "http://localhost/api/course_ratings/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"rating\": 5.0, \"comment\": \"Excellent course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 06:56:27 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:56:27 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-13T06:56:26.793418\", \"updated_at\": \"2024-08-13T06:56:26.793429\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 3, \"rating\": 5.0, \"comment\": \"Excellent course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.14
+    },
+    {
+        "endpoint": "/api/course_ratings/4",
+        "request_url": "http://localhost/api/course_ratings/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.1
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/courses/1",
+        "request_url": "http://localhost/api/courses/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"title\": \"Python for beginners\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": null, \"created_at\": \"2024-08-13T06:56:29.805046\", \"updated_at\": \"2024-08-13T06:56:29.805059\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.1
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"title\": \"New Course\", \"description\": \"Course description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": \"http://youtube.com/playlist\", \"created_at\": \"2024-08-13T06:56:29.931298\", \"updated_at\": \"2024-08-13T06:56:29.931313\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.09
+    },
+    {
+        "endpoint": "/api/courses/1",
+        "request_url": "http://localhost/api/courses/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"title\": \"Advanced python\", \"description\": \"Updated description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": \"http://youtube.com/updated-playlist\", \"created_at\": \"2024-08-13T06:56:30.034271\", \"updated_at\": \"2024-08-13T06:56:30.089459\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.15
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.13
+    },
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 200,
+        "response_data": "{\"token\": \"eyJ2ZXIiOiI1IiwidWlkIjoiZTZlM2QwM2U3Y2RjNGI4OWFiNTNjNmNkNmJkMzQ2ZDIiLCJmc19wYWEiOjE3MjM1MzIxOTIuOTI3NjY1NSwiZXhwIjowfQ.ZrsDoA.EZR3N-y2qIxUNldurraCL960mp0\", \"email\": \"testuser@example.com\", \"username\": \"testuser\", \"role\": \"user\", \"user_id\": 1}\n",
+        "time_taken": 0.26
+    },
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 400,
+        "response_data": "{\"message\": \"email not provided\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Wrong Password\"}\n",
+        "time_taken": 0.15
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 200,
+        "response_data": "{\"message\": \"You've signed up successfully! Welcome to Learn AI.\"}\n",
+        "time_taken": 0.23
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 400,
+        "response_data": "{\"message\": \"All fields are required and must be provided\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Passwords do not match\"}\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 409,
+        "response_data": "{\"message\": \"Username not available, get creative\"}\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 200,
+        "response_data": "{\"message\": \"Logged out successfully\"}\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Already logged out!\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 401,
+        "response_data": "{\"message\": \"User not authenticated\"}\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/resources",
+        "request_url": "http://localhost/api/resources",
+        "response_status": 200,
+        "response_data": "[{\"id\": 1, \"url\": \"http://example.com/resource\", \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 06:56:35 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:56:35 -0000\", \"course\": {\"id\": 0, \"title\": null, \"description\": null}}]\n",
+        "time_taken": 0.02
+    },
+    {
+        "endpoint": "/api/resources/2",
+        "request_url": "http://localhost/api/resources/2",
+        "response_status": 200,
+        "response_data": "{\"id\": 2, \"url\": \"http://example.com/resource\", \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 06:56:35 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:56:35 -0000\", \"course\": {\"id\": 0, \"title\": null, \"description\": null}}\n",
+        "time_taken": 0.06
+    },
+    {
+        "endpoint": "/api/transcript",
+        "request_url": "http://localhost/api/transcript",
+        "response_status": 201,
+        "response_data": "{\"message\": \"Transcript added successfully\", \"transcript\": \"[Music] welcome to another module of the strategies for professional growth course as you can see this is an outbound training program or a session you can see we are outdoors right now all the activities related to the session will be outdoors why this outbound training this outbound training as the course indicates it is about learning strategies for growing professionally and one of the key things that we see in a in a in joining a corporate or in work atmosphere is to be able to work along with other people right as a team when you have to work you need to get along with people you need to be able to communicate well with them so that the group effect actually shows up okay as you can see um in some of these group activities as you can see when leander pes and mahesh were playing singles tournaments they had some rank but that was a very rank that was very far away from the top rank but when the two came together and played as a doubles team they were number one right so this group effect came into picture and they were able to get along very well in terms of being a team and could win matches that way they were number one for a very long time so what is very important here is we learned that group effect is going to fetch much more of a result compared to just individuals though individuals will have their own strengths a group brings out all these strengths together as a synergistic effect and you will see that in the results now you have a person who has gone through this who has trained so many people in the army what more would you need in terms of introducing this kind of outbound training to you and there you have colonel jay kumar who will introduce to you thank you sir thank you all right welcome ladies and gentlemen to the program that will follow it is a it's always a great privilege and honor to be inside the campus the only forested campus within a city i was told it is within in the entire asia you can't find such a place the greenery is something for which we cannot see elsewhere anywhere in a city one and two the the kind of buoyant mood one gets to see among the student whether it is the students or the young faculty even the elderly faculty everyone moving about in cycles there is no timing here it is 24 bar 7. 24 bar 7 is including the laboratories including something called center for innovation which professor shiva is the one who is the mastermind behind that whether it is cycling around whether it is tea shop the amount of number of tea shops that you opened here everything is really amazing in this place and add to it the credit of introducing outbound training as a part of life skills course in our institute and therefore we thought it should be it should be it should not be missed for any class which is related to professional growth all right as professor siva has already told you all this is all about working in a team while working in a team we we not only get an insight into our own personality traits our own limitations in some situations we also get to know the strengths of the people working around us our team members in fact sir i must tell you that a few years ago there was one it company which came along with me to a place called allegory here after two days of training there was one one part of the program was we are not going to do all of our obt here we are just giving a sample of two activities therefore i thought i must mention this so one of the activities that those people were made to do was the team of about 80 of them were their participants and we made them into 40 pairs buddy pairs and the instruction given was all right gentlemen ladies your buddy pair your buddy pair is now injured and he obviously cannot walk the nearest medical aid is about 50 meters away we drew a line and these people were in one line here and i said now please take your buddy there get your friend in whatever way whatever way you want you do now they didn't know what to do they didn't know how to pick up also like this or the back they did everything and finally with a little bit of hints uh people put the bodies on the shoulder like this like a lamb we have on our shoulders some pick them on the piggyback like we do in the schools and they started running so that's not what is important here what is important here is after those two days of activities in outbound training we could notice people were sitting close to each other jiggling giggling and talking shouting yelling everything the kind of bonding was great the the seniors just after this one single activity just these two days of just about this this activity made a lot of made a lot of difference probably that is the personal touch one gets into that one has the strength to take the other all the way all the way there which they didn't realize before yes yes that probably had a great impact upon the upon the thinking upon the perception upon many things within every individual some kind of bonding starts during the feedback one of the not one more than one they told us that they have been in the same office for over a year and they have not spoken to each other look at what it is they have not spoken to each other because they were sitting facing their backs one fellow is looking this side the other person is looking that side in that cubicle so that's what it is we are going to look primarily at completing a task not as an individual but as a group it is primarily a fun activity and i would i would advise you all to look for each of the individuals actions and behavior within the group how they are able to look at the bigger picture how an individual's contribution is taken by the team or rejected by the team and how one feels when when something is not going the way it is supposed to be going and all such things are there so to be observant and immersed in it immerse yourself into this program you will find they will one plan the first thing that they will all be doing is like any other task they have to plan they have to see the resources you have to plan see the resources also see each one will have a resource will be a resource each individual by himself or herself will be a resource and they have to look for something correct somebody who's a well-built fellow who can lift something very easily something who can sneak into some small little part and get the work done so all those things are and strangely sometimes you find the skill there that you did not notice earlier they did not notice so this planning issue is there and looking for resource available is there then keeping in mind the time constraint for example any project that you would see we will always be running against time here also we will put some kind of some of them will be very tensed some of them just will be thinking about what to do yes yes but eventually it gets done eventually they all they all merge and get the task completed so mid-course correction will be the next aspect which the people will be looking at another thing is picking up people who are lagging behind that is very important because the strength of a group lies in the weakest link i'm sure all of us heard this so you have to ensure that whoever is not so much capable of doing a particular thing please give him or her the shoulder and help her get over the whatever difficulty he or she faces that's what is the team spirit all about so shall we go sir yes\"}\n",
+        "time_taken": 1.73
+    },
+    {
+        "endpoint": "/api/transcript",
+        "request_url": "http://localhost/api/transcript",
+        "response_status": 400,
+        "response_data": "{\"error\": \"video_id and course_id are required\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/transcript/This is the transcript text",
+        "request_url": "http://localhost/api/transcript/This%20is%20the%20transcript%20text",
+        "response_status": 200,
+        "response_data": "{\"transcript\": \"This is the transcript text\"}\n",
+        "time_taken": 0.06
+    },
+    {
+        "endpoint": "/api/transcript/unknown_video_id",
+        "request_url": "http://localhost/api/transcript/unknown_video_id",
+        "response_status": 500,
+        "response_data": "{\"error\": \"\\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=unknown_video_id! This is most likely caused by:\\n\\nSubtitles are disabled for this video\\n\\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!\"}\n",
+        "time_taken": 0.61
+    },
+    {
+        "endpoint": "/api/transcript/Updated transcript text",
+        "request_url": "http://localhost/api/transcript/Original%20transcript%20text",
+        "response_status": 200,
+        "response_data": "{\"message\": \"Transcript updated successfully\", \"transcript\": \"Updated transcript text\"}\n",
+        "time_taken": 0.13
+    },
+    {
+        "endpoint": "/api/transcript/unknown_video_id",
+        "request_url": "http://localhost/api/transcript/unknown_video_id",
+        "response_status": 404,
+        "response_data": "{\"error\": \"Transcript not found\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/transcript/Transcript text to delete",
+        "request_url": "http://localhost/api/transcript/Transcript%20text%20to%20delete",
+        "response_status": 200,
+        "response_data": "{\"message\": \"Transcript deleted successfully\"}\n",
+        "time_taken": 0.09
+    },
+    {
+        "endpoint": "/api/transcript/unknown_video_id",
+        "request_url": "http://localhost/api/transcript/unknown_video_id",
+        "response_status": 404,
+        "response_data": "{\"error\": \"Transcript not found\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/videos",
+        "request_url": "http://localhost/api/videos",
+        "response_status": 200,
+        "response_data": "[{\"id\": 1, \"title\": \"Python Tutorial\", \"url\": \"https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU\", \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 06:57:17 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:57:17 -0000\", \"course\": {\"id\": 0, \"title\": null, \"description\": null}}]\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/videos/2",
+        "request_url": "http://localhost/api/videos/2",
+        "response_status": 200,
+        "response_data": "{\"id\": 2, \"title\": \"Python Tutorial\", \"url\": \"https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU\", \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 06:57:17 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 06:57:17 -0000\", \"course\": {\"id\": 0, \"title\": null, \"description\": null}}\n",
+        "time_taken": 0.07
+    },
+    {
+        "endpoint": "/api/categories",
+        "request_url": "http://localhost/api/categories",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/categories/1",
+        "request_url": "http://localhost/api/categories/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"name\": \"Linux\", \"created_at\": \"Tue, 13 Aug 2024 07:09:37 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 07:09:37 -0000\", \"courses\": []}\n",
+        "time_taken": 0.08
+    },
+    {
+        "endpoint": "/api/categories",
+        "request_url": "http://localhost/api/categories",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"name\": \"Git basics\", \"created_at\": \"Tue, 13 Aug 2024 07:09:37 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 07:09:37 -0000\", \"courses\": []}\n",
+        "time_taken": 0.08
+    },
+    {
+        "endpoint": "/api/categories/3",
+        "request_url": "http://localhost/api/categories/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"name\": \"Updated Degree Category\", \"created_at\": \"Tue, 13 Aug 2024 07:09:37 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 07:09:37 -0000\", \"courses\": []}\n",
+        "time_taken": 0.12
+    },
+    {
+        "endpoint": "/api/categories/4",
+        "request_url": "http://localhost/api/categories/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.13
+    },
+    {
+        "endpoint": "/api/course_ratings",
+        "request_url": "http://localhost/api/course_ratings",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/course_ratings/1",
+        "request_url": "http://localhost/api/course_ratings/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 07:09:40 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 07:09:40 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-13T07:09:40.265850\", \"updated_at\": \"2024-08-13T07:09:40.265859\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.14
+    },
+    {
+        "endpoint": "/api/course_ratings",
+        "request_url": "http://localhost/api/course_ratings",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 07:09:40 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 07:09:40 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-13T07:09:40.265850\", \"updated_at\": \"2024-08-13T07:09:40.265859\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.09
+    },
+    {
+        "endpoint": "/api/course_ratings/3",
+        "request_url": "http://localhost/api/course_ratings/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"rating\": 5.0, \"comment\": \"Excellent course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 07:09:40 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 07:09:40 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-13T07:09:40.265850\", \"updated_at\": \"2024-08-13T07:09:40.265859\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 3, \"rating\": 5.0, \"comment\": \"Excellent course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.14
+    },
+    {
+        "endpoint": "/api/course_ratings/4",
+        "request_url": "http://localhost/api/course_ratings/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.11
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/courses/1",
+        "request_url": "http://localhost/api/courses/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"title\": \"Python for beginners\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": null, \"created_at\": \"2024-08-13T07:09:43.324208\", \"updated_at\": \"2024-08-13T07:09:43.324220\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.1
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"title\": \"New Course\", \"description\": \"Course description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": \"http://youtube.com/playlist\", \"created_at\": \"2024-08-13T07:09:43.451594\", \"updated_at\": \"2024-08-13T07:09:43.451608\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.08
+    },
+    {
+        "endpoint": "/api/courses/1",
+        "request_url": "http://localhost/api/courses/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"title\": \"Advanced python\", \"description\": \"Updated description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": \"http://youtube.com/updated-playlist\", \"created_at\": \"2024-08-13T07:09:43.549059\", \"updated_at\": \"2024-08-13T07:09:43.606947\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.21
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.14
+    },
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 200,
+        "response_data": "{\"token\": \"eyJ2ZXIiOiI1IiwidWlkIjoiYmM5MTgxNDk3MDk3NDM0MmFiOTdhM2M3NDc2NmEwOGYiLCJmc19wYWEiOjE3MjM1MzI5ODYuNjc4ODE0LCJleHAiOjB9.ZrsGug.DfE8ys-9QWExoU9BW-OZE0CzXY0\", \"email\": \"testuser@example.com\", \"username\": \"testuser\", \"role\": \"user\", \"user_id\": 1}\n",
+        "time_taken": 0.23
+    },
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 400,
+        "response_data": "{\"message\": \"email not provided\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Wrong Password\"}\n",
+        "time_taken": 0.16
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 200,
+        "response_data": "{\"message\": \"You've signed up successfully! Welcome to Learn AI.\"}\n",
+        "time_taken": 0.3
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 400,
+        "response_data": "{\"message\": \"All fields are required and must be provided\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Passwords do not match\"}\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 409,
+        "response_data": "{\"message\": \"Username not available, get creative\"}\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 200,
+        "response_data": "{\"message\": \"Logged out successfully\"}\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Already logged out!\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 401,
+        "response_data": "{\"message\": \"User not authenticated\"}\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/resources",
+        "request_url": "http://localhost/api/resources",
+        "response_status": 200,
+        "response_data": "[{\"id\": 1, \"url\": \"http://example.com/resource\", \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 07:09:49 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 07:09:49 -0000\", \"course\": {\"id\": 0, \"title\": null, \"description\": null}}]\n",
+        "time_taken": 0.02
+    },
+    {
+        "endpoint": "/api/resources/2",
+        "request_url": "http://localhost/api/resources/2",
+        "response_status": 200,
+        "response_data": "{\"id\": 2, \"url\": \"http://example.com/resource\", \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 07:09:49 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 07:09:49 -0000\", \"course\": {\"id\": 0, \"title\": null, \"description\": null}}\n",
+        "time_taken": 0.07
+    },
+    {
+        "endpoint": "/api/transcript",
+        "request_url": "http://localhost/api/transcript",
+        "response_status": 201,
+        "response_data": "{\"message\": \"Transcript added successfully\", \"transcript\": \"[Music] welcome to another module of the strategies for professional growth course as you can see this is an outbound training program or a session you can see we are outdoors right now all the activities related to the session will be outdoors why this outbound training this outbound training as the course indicates it is about learning strategies for growing professionally and one of the key things that we see in a in a in joining a corporate or in work atmosphere is to be able to work along with other people right as a team when you have to work you need to get along with people you need to be able to communicate well with them so that the group effect actually shows up okay as you can see um in some of these group activities as you can see when leander pes and mahesh were playing singles tournaments they had some rank but that was a very rank that was very far away from the top rank but when the two came together and played as a doubles team they were number one right so this group effect came into picture and they were able to get along very well in terms of being a team and could win matches that way they were number one for a very long time so what is very important here is we learned that group effect is going to fetch much more of a result compared to just individuals though individuals will have their own strengths a group brings out all these strengths together as a synergistic effect and you will see that in the results now you have a person who has gone through this who has trained so many people in the army what more would you need in terms of introducing this kind of outbound training to you and there you have colonel jay kumar who will introduce to you thank you sir thank you all right welcome ladies and gentlemen to the program that will follow it is a it's always a great privilege and honor to be inside the campus the only forested campus within a city i was told it is within in the entire asia you can't find such a place the greenery is something for which we cannot see elsewhere anywhere in a city one and two the the kind of buoyant mood one gets to see among the student whether it is the students or the young faculty even the elderly faculty everyone moving about in cycles there is no timing here it is 24 bar 7. 24 bar 7 is including the laboratories including something called center for innovation which professor shiva is the one who is the mastermind behind that whether it is cycling around whether it is tea shop the amount of number of tea shops that you opened here everything is really amazing in this place and add to it the credit of introducing outbound training as a part of life skills course in our institute and therefore we thought it should be it should be it should not be missed for any class which is related to professional growth all right as professor siva has already told you all this is all about working in a team while working in a team we we not only get an insight into our own personality traits our own limitations in some situations we also get to know the strengths of the people working around us our team members in fact sir i must tell you that a few years ago there was one it company which came along with me to a place called allegory here after two days of training there was one one part of the program was we are not going to do all of our obt here we are just giving a sample of two activities therefore i thought i must mention this so one of the activities that those people were made to do was the team of about 80 of them were their participants and we made them into 40 pairs buddy pairs and the instruction given was all right gentlemen ladies your buddy pair your buddy pair is now injured and he obviously cannot walk the nearest medical aid is about 50 meters away we drew a line and these people were in one line here and i said now please take your buddy there get your friend in whatever way whatever way you want you do now they didn't know what to do they didn't know how to pick up also like this or the back they did everything and finally with a little bit of hints uh people put the bodies on the shoulder like this like a lamb we have on our shoulders some pick them on the piggyback like we do in the schools and they started running so that's not what is important here what is important here is after those two days of activities in outbound training we could notice people were sitting close to each other jiggling giggling and talking shouting yelling everything the kind of bonding was great the the seniors just after this one single activity just these two days of just about this this activity made a lot of made a lot of difference probably that is the personal touch one gets into that one has the strength to take the other all the way all the way there which they didn't realize before yes yes that probably had a great impact upon the upon the thinking upon the perception upon many things within every individual some kind of bonding starts during the feedback one of the not one more than one they told us that they have been in the same office for over a year and they have not spoken to each other look at what it is they have not spoken to each other because they were sitting facing their backs one fellow is looking this side the other person is looking that side in that cubicle so that's what it is we are going to look primarily at completing a task not as an individual but as a group it is primarily a fun activity and i would i would advise you all to look for each of the individuals actions and behavior within the group how they are able to look at the bigger picture how an individual's contribution is taken by the team or rejected by the team and how one feels when when something is not going the way it is supposed to be going and all such things are there so to be observant and immersed in it immerse yourself into this program you will find they will one plan the first thing that they will all be doing is like any other task they have to plan they have to see the resources you have to plan see the resources also see each one will have a resource will be a resource each individual by himself or herself will be a resource and they have to look for something correct somebody who's a well-built fellow who can lift something very easily something who can sneak into some small little part and get the work done so all those things are and strangely sometimes you find the skill there that you did not notice earlier they did not notice so this planning issue is there and looking for resource available is there then keeping in mind the time constraint for example any project that you would see we will always be running against time here also we will put some kind of some of them will be very tensed some of them just will be thinking about what to do yes yes but eventually it gets done eventually they all they all merge and get the task completed so mid-course correction will be the next aspect which the people will be looking at another thing is picking up people who are lagging behind that is very important because the strength of a group lies in the weakest link i'm sure all of us heard this so you have to ensure that whoever is not so much capable of doing a particular thing please give him or her the shoulder and help her get over the whatever difficulty he or she faces that's what is the team spirit all about so shall we go sir yes\"}\n",
+        "time_taken": 1.65
+    },
+    {
+        "endpoint": "/api/transcript",
+        "request_url": "http://localhost/api/transcript",
+        "response_status": 400,
+        "response_data": "{\"error\": \"video_id and course_id are required\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/transcript/This is the transcript text",
+        "request_url": "http://localhost/api/transcript/This%20is%20the%20transcript%20text",
+        "response_status": 200,
+        "response_data": "{\"transcript\": \"This is the transcript text\"}\n",
+        "time_taken": 0.05
+    },
+    {
+        "endpoint": "/api/transcript/unknown_video_id",
+        "request_url": "http://localhost/api/transcript/unknown_video_id",
+        "response_status": 500,
+        "response_data": "{\"error\": \"\\nCould not retrieve a transcript for the video https://www.youtube.com/watch?v=unknown_video_id! This is most likely caused by:\\n\\nSubtitles are disabled for this video\\n\\nIf you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!\"}\n",
+        "time_taken": 0.97
+    },
+    {
+        "endpoint": "/api/transcript/Updated transcript text",
+        "request_url": "http://localhost/api/transcript/Original%20transcript%20text",
+        "response_status": 200,
+        "response_data": "{\"message\": \"Transcript updated successfully\", \"transcript\": \"Updated transcript text\"}\n",
+        "time_taken": 0.11
+    },
+    {
+        "endpoint": "/api/transcript/unknown_video_id",
+        "request_url": "http://localhost/api/transcript/unknown_video_id",
+        "response_status": 404,
+        "response_data": "{\"error\": \"Transcript not found\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/transcript/Transcript text to delete",
+        "request_url": "http://localhost/api/transcript/Transcript%20text%20to%20delete",
+        "response_status": 200,
+        "response_data": "{\"message\": \"Transcript deleted successfully\"}\n",
+        "time_taken": 0.09
+    },
+    {
+        "endpoint": "/api/transcript/unknown_video_id",
+        "request_url": "http://localhost/api/transcript/unknown_video_id",
+        "response_status": 404,
+        "response_data": "{\"error\": \"Transcript not found\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/videos",
+        "request_url": "http://localhost/api/videos",
+        "response_status": 200,
+        "response_data": "[{\"id\": 1, \"title\": \"Python Tutorial\", \"url\": \"https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU\", \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 07:10:28 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 07:10:28 -0000\", \"course\": {\"id\": 0, \"title\": null, \"description\": null}}]\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/videos/2",
+        "request_url": "http://localhost/api/videos/2",
+        "response_status": 200,
+        "response_data": "{\"id\": 2, \"title\": \"Python Tutorial\", \"url\": \"https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU\", \"course_id\": 1, \"created_at\": \"Tue, 13 Aug 2024 07:10:29 -0000\", \"updated_at\": \"Tue, 13 Aug 2024 07:10:29 -0000\", \"course\": {\"id\": 0, \"title\": null, \"description\": null}}\n",
+        "time_taken": 0.1
+    }
+]

@@ -1,0 +1,138 @@
+openapi: 3.0.0
+info:
+  title: Role API
+  version: 1.0.0
+  description: API for managing roles in the application
+
+paths:
+  /api/roles:
+    get:
+      summary: Get all roles
+      operationId: getRoles
+      responses:
+        '200':
+          description: List of roles
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Role'
+      # Sample curl command:
+      # curl -X GET http://localhost:5000/api/roles
+
+    post:
+      summary: Create a new role
+      operationId: createRole
+      security:
+        - adminAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Role'
+      responses:
+        '201':
+          description: Role created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Role'
+      # Sample curl command:
+      # curl -X POST http://localhost:5000/api/roles \
+      #      -H "Content-Type: application/json" \
+      #      -d '{
+      #            "name": "Instructor",
+      #            "description": "Role for users who are instructors."
+      #          }'
+
+  /api/roles/{role_id}:
+    get:
+      summary: Get a specific role by ID
+      operationId: getRoleById
+      parameters:
+        - name: role_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Role details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Role'
+        '404':
+          description: Role not found
+      # Sample curl command:
+      # curl -X GET http://localhost:5000/api/roles/{role_id}
+
+    put:
+      summary: Update a specific role by ID
+      operationId: updateRole
+      security:
+        - adminAuth: []
+      parameters:
+        - name: role_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Role'
+      responses:
+        '200':
+          description: Role updated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Role'
+        '404':
+          description: Role not found
+      # Sample curl command:
+      # curl -X PUT http://localhost:5000/api/roles/{role_id} \
+      #      -H "Content-Type: application/json" \
+      #      -d '{
+      #            "name": "Updated Role",
+      #            "description": "Updated description for the role."
+      #          }'
+
+    delete:
+      summary: Delete a specific role by ID
+      operationId: deleteRole
+      security:
+        - adminAuth: []
+      parameters:
+        - name: role_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Role deleted
+        '404':
+          description: Role not found
+      # Sample curl command:
+      # curl -X DELETE http://localhost:5000/api/roles/{role_id}
+
+components:
+  schemas:
+    Role:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        name:
+          type: string
+          example: "Instructor"
+        description:
+          type: string
+          example: "Role for users who are instructors."

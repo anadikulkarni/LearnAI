@@ -1,0 +1,251 @@
+openapi: 3.0.0
+info:
+  title: Educational API
+  version: 1.0.0
+  description: API for educational tools and services
+paths:
+  api/llm/summary:
+    post:
+      summary: Summarize the given lecture transcript
+      description: Returns a summary of the lecture transcript covering all the important points.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                transcript:
+                  type: string
+      responses:
+        '200':
+          description: A summary of the lecture transcript
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  summary:
+                    type: string
+  /chatbot:
+    post:
+      summary: Answer students' questions
+      description: Provides answers to students' questions
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                query:
+                  type: string
+      responses:
+        '200':
+          description: Answer to the student's question
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  answer:
+                    type: string
+  api/llm/feedback:
+    post:
+      summary: Provide feedback on students' programming assignments
+      description: Gives useful information on why the student's code failed
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                code:
+                  type: string
+                error:
+                  type: string
+      responses:
+        '200':
+          description: Feedback on the code
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  feedback:
+                    type: string
+      security:
+        - BearerAuth: []
+  api/llm/quiz:
+    post:
+      summary: Generate quiz questions for specific topics
+      description: Provides quiz questions to help students practice concepts
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                topic:
+                  type: string
+      responses:
+        '200':
+          description: Quiz questions for the specified topic
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  questions:
+                    type: string
+  api/llm/translate:
+    post:
+      summary: Translate lecture transcripts to different languages
+      description: Provides a translation of the lecture transcript to a specified language
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                transcript:
+                  type: string
+                language:
+                  type: string
+      responses:
+        '200':
+          description: Translation of the lecture transcript
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  translation:
+                    type: string
+  api/llm/analyze_code:
+    post:
+      summary: Analyze and suggest improvements to students' coding style
+      description: Provides suggestions based on industry standards and best practices
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                code:
+                  type: string
+      responses:
+        '200':
+          description: Suggestions for improving the coding style
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  analysis:
+                    type: string
+  api/llm/recommend_courses:
+    post:
+      summary: Recommend relevant courses based on past performance and interests
+      description: Provides course recommendations to help students choose suitable courses
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                performance:
+                  type: string
+                interests:
+                  type: string
+      responses:
+        '200':
+          description: Course recommendations
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  recommendations:
+                    type: string
+  api/llm/highlight_segments:
+    post:
+      summary: Highlight key segments in lecture videos
+      description: Provides key segments to help students grasp the most important information quickly
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                video_content:
+                  type: string
+      responses:
+        '200':
+          description: Highlighted key segments
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  highlights:
+                    type: string
+  api/llm/discussion_prompts:
+    post:
+      summary: Generate discussion prompts for forum topics
+      description: Provides prompts to help students engage in discussions
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                topic:
+                  type: string
+      responses:
+        '200':
+          description: Discussion prompts for the specified topic
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  prompts:
+                    type: string
+  api/llm/interactive_quizzes:
+    post:
+      summary: Generate interactive quiz questions
+      description: Provides quiz questions for interactive learning
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                lecture_content:
+                  type: string
+      responses:
+        '200':
+          description: Interactive quiz questions
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  quizzes:
+                    type: string
+
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

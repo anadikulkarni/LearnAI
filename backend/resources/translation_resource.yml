@@ -1,0 +1,114 @@
+openapi: 3.0.0
+info:
+  title: Lecture Transcript API
+  description: API for managing lecture transcripts
+  version: 1.0.0
+paths:
+  /api/lecture_transcripts:
+    get:
+      summary: Get all lecture transcripts
+      responses:
+        '200':
+          description: A list of lecture transcripts
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/LectureTranscript'
+    post:
+      summary: Create a new lecture transcript
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LectureTranscript'
+      responses:
+        '201':
+          description: Lecture transcript created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LectureTranscript'
+
+  /api/lecture_transcripts/{transcript_id}:
+    get:
+      summary: Get a specific lecture transcript by ID
+      parameters:
+        - name: transcript_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Lecture transcript details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LectureTranscript'
+        '404':
+          description: Lecture transcript not found
+    put:
+      summary: Update a specific lecture transcript by ID
+      parameters:
+        - name: transcript_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LectureTranscript'
+      responses:
+        '200':
+          description: Updated lecture transcript
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LectureTranscript'
+        '404':
+          description: Lecture transcript not found
+    delete:
+      summary: Delete a specific lecture transcript by ID
+      parameters:
+        - name: transcript_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Lecture transcript deleted
+        '404':
+          description: Lecture transcript not found
+
+components:
+  schemas:
+    LectureTranscript:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        content:
+          type: string
+          example: "This is the content of the lecture transcript."
+        course_id:
+          type: integer
+          example: 1
+        created_at:
+          type: string
+          format: date-time
+          example: "2024-07-31T12:00:00Z"
+        updated_at:
+          type: string
+          format: date-time
+          example: "2024-07-31T12:00:00Z"
+      required:
+        - content
+        - course_id

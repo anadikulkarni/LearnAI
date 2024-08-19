@@ -1,0 +1,106 @@
+openapi: 3.0.0
+info:
+  title: Assignment Feedback API
+  description: API for managing assignment feedback
+  version: 1.0.0
+paths:
+  /api/assignment_feedback:
+    get:
+      summary: Get all assignment feedback
+      responses:
+        '200':
+          description: A list of assignment feedback
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/AssignmentFeedback'
+    post:
+      summary: Create new feedback
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AssignmentFeedback'
+      responses:
+        '201':
+          description: Feedback created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AssignmentFeedback'
+
+  /api/assignment_feedback/{feedback_id}:
+    get:
+      summary: Get specific feedback by ID
+      parameters:
+        - name: feedback_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Feedback details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AssignmentFeedback'
+        '404':
+          description: Feedback not found
+    put:
+      summary: Update specific feedback by ID
+      parameters:
+        - name: feedback_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AssignmentFeedback'
+      responses:
+        '200':
+          description: Updated feedback
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AssignmentFeedback'
+        '404':
+          description: Feedback not found
+    delete:
+      summary: Delete specific feedback by ID
+      parameters:
+        - name: feedback_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '204':
+          description: Feedback deleted
+        '404':
+          description: Feedback not found
+
+components:
+  schemas:
+    AssignmentFeedback:
+      type: object
+      properties:
+        id:
+          type: integer
+          example: 1
+        feedback:
+          type: string
+          example: "This is feedback"
+        assignment_id:
+          type: integer
+          example: 1
+      required:
+        - feedback
+        - assignment_id

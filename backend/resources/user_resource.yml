@@ -1,0 +1,249 @@
+YAML Definition for UserResource:
+/users/{user_id}:
+  get:
+    summary: Get user by ID or all users
+    parameters:
+      - name: user_id
+        in: path
+        required: false
+        schema:
+          type: integer
+    responses:
+      '200':
+        description: User(s) fetched successfully
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: integer
+                name:
+                  type: string
+                email:
+                  type: string
+                role_id:
+                  type: integer
+                role_name:
+                  type: string
+                role_description:
+                  type: string
+      '500':
+        description: Error fetching user(s)
+  post:
+    summary: Create or update a user
+    security:
+      - bearerAuth: []
+    requestBody:
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              id:
+                type: integer
+              name:
+                type: string
+              email:
+                type: string
+              role_id:
+                type: integer
+    responses:
+      '200':
+        description: User created or updated successfully
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: integer
+                name:
+                  type: string
+                email:
+                  type: string
+                role_id:
+                  type: integer
+                role_name:
+                  type: string
+                role_description:
+                  type: string
+      '400':
+        description: Bad request
+      '500':
+        description: Error creating or updating user
+  put:
+    summary: Update a user by ID
+    parameters:
+      - name: user_id
+        in: path
+        required: true
+        schema:
+          type: integer
+    requestBody:
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+              email:
+                type: string
+              role_id:
+                type: integer
+    responses:
+      '200':
+        description: User updated successfully
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: integer
+                name:
+                  type: string
+                email:
+                  type: string
+                role_id:
+                  type: integer
+                role_name:
+                  type: string
+                role_description:
+                  type: string
+      '400':
+        description: Bad request
+      '404':
+        description: User not found
+      '500':
+        description: Error updating user
+  delete:
+    summary: Delete a user by ID
+    parameters:
+      - name: user_id
+        in: path
+        required: true
+        schema:
+          type: integer
+    responses:
+      '204':
+        description: User deleted successfully
+      '404':
+        description: User not found
+      '500':
+        description: Error deleting user
+
+YAML Definition for CourseResource:
+/courses/{course_id}:
+  get:
+    summary: Get course by ID or all courses
+    parameters:
+      - name: course_id
+        in: path
+        required: false
+        schema:
+          type: integer
+    responses:
+      '200':
+        description: Course(s) fetched successfully
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: integer
+                name:
+                  type: string
+                description:
+                  type: string
+      '500':
+        description: Error fetching course(s)
+  post:
+    summary: Create or update a course
+    security:
+      - bearerAuth: []
+    requestBody:
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              id:
+                type: integer
+              name:
+                type: string
+              description:
+                type: string
+    responses:
+      '200':
+        description: Course created or updated successfully
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: integer
+                name:
+                  type: string
+                description:
+                  type: string
+      '400':
+        description: Bad request
+      '500':
+        description: Error creating or updating course
+  put:
+    summary: Update a course by ID
+    parameters:
+      - name: course_id
+        in: path
+        required: true
+        schema:
+          type: integer
+    requestBody:
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              name:
+                type: string
+              description:
+                type: string
+    responses:
+      '200':
+        description: Course updated successfully
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                id:
+                  type: integer
+                name:
+                  type: string
+                description:
+                  type: string
+      '400':
+        description: Bad request
+      '404':
+        description: Course not found
+      '500':
+        description: Error updating course
+  delete:
+    summary: Delete a course by ID
+    parameters:
+      - name: course_id
+        in: path
+        required: true
+        schema:
+          type: integer
+    responses:
+      '204':
+        description: Course deleted successfully
+      '404':
+        description: Course not found
+      '500':
+        description: Error deleting course

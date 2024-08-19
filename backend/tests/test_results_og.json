@@ -1,0 +1,177 @@
+[
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 200,
+        "response_data": "{\"token\": \"WyJmMDBlYzRlYTRkYTI0Y2Y3YTZhNGM5YTk2NTYyNWI4ZSJd.ZrQu3A.tKSvk_vWRKo00oBnzlCTwEl8TNU\", \"email\": \"testuser@example.com\", \"username\": \"testuser\", \"role\": \"user\", \"user_id\": 1}\n",
+        "time_taken": 0.4
+    },
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 400,
+        "response_data": "{\"message\": \"email not provided\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/login",
+        "request_url": "http://localhost/api/login",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Wrong Password\"}\n",
+        "time_taken": 0.22
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 200,
+        "response_data": "{\"message\": \"You've signed up successfully! Welcome to Learn AI.\"}\n",
+        "time_taken": 0.44
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 400,
+        "response_data": "{\"message\": \"All fields are required and must be provided\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Passwords do not match\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/signup",
+        "request_url": "http://localhost/api/signup",
+        "response_status": 409,
+        "response_data": "{\"message\": \"Username not available, get creative\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 200,
+        "response_data": "{\"message\": \"Logged out successfully\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 400,
+        "response_data": "{\"message\": \"Already logged out!\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/logout",
+        "request_url": "http://localhost/api/logout",
+        "response_status": 401,
+        "response_data": "{\"message\": \"User not authenticated\"}\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/categories",
+        "request_url": "http://localhost/api/categories",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/categories/1",
+        "request_url": "http://localhost/api/categories/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"name\": \"Linux\", \"created_at\": \"Thu, 08 Aug 2024 02:35:26 -0000\", \"updated_at\": \"Thu, 08 Aug 2024 02:35:26 -0000\", \"courses\": []}\n",
+        "time_taken": 0.09
+    },
+    {
+        "endpoint": "/api/categories",
+        "request_url": "http://localhost/api/categories",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"name\": \"Git basics\", \"created_at\": \"Thu, 08 Aug 2024 02:35:26 -0000\", \"updated_at\": \"Thu, 08 Aug 2024 02:35:26 -0000\", \"courses\": []}\n",
+        "time_taken": 0.08
+    },
+    {
+        "endpoint": "/api/categories/3",
+        "request_url": "http://localhost/api/categories/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"name\": \"Updated Degree Category\", \"created_at\": \"Thu, 08 Aug 2024 02:35:26 -0000\", \"updated_at\": \"Thu, 08 Aug 2024 02:35:26 -0000\", \"courses\": []}\n",
+        "time_taken": 0.17
+    },
+    {
+        "endpoint": "/api/categories/4",
+        "request_url": "http://localhost/api/categories/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.17
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.01
+    },
+    {
+        "endpoint": "/api/courses/1",
+        "request_url": "http://localhost/api/courses/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"title\": \"Python for beginners\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": null, \"created_at\": \"2024-08-08T02:35:45.618255\", \"updated_at\": \"2024-08-08T02:35:45.618255\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.09
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"title\": \"New Course\", \"description\": \"Course description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": \"http://youtube.com/playlist\", \"created_at\": \"2024-08-08T02:35:45.723839\", \"updated_at\": \"2024-08-08T02:35:45.723839\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.09
+    },
+    {
+        "endpoint": "/api/courses/1",
+        "request_url": "http://localhost/api/courses/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"title\": \"Advanced python\", \"description\": \"Updated description\", \"category_id\": 1, \"instructor_id\": 1, \"youtube_playlist\": \"http://youtube.com/updated-playlist\", \"created_at\": \"2024-08-08T02:35:45.820284\", \"updated_at\": \"2024-08-08T02:35:45.903096\", \"category\": {\"id\": 1, \"name\": \"Programming\"}, \"instructor\": {\"id\": 1, \"username\": \"admin\", \"email\": \"admin@email.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [], \"quizzes\": []}\n",
+        "time_taken": 0.17
+    },
+    {
+        "endpoint": "/api/courses",
+        "request_url": "http://localhost/api/courses/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.17
+    },
+    {
+        "endpoint": "/api/course_ratings",
+        "request_url": "http://localhost/api/course_ratings",
+        "response_status": 200,
+        "response_data": "[]\n",
+        "time_taken": 0.0
+    },
+    {
+        "endpoint": "/api/course_ratings/1",
+        "request_url": "http://localhost/api/course_ratings/1",
+        "response_status": 200,
+        "response_data": "{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Thu, 08 Aug 2024 02:36:01 -0000\", \"updated_at\": \"Thu, 08 Aug 2024 02:36:01 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-08T02:36:01.581039\", \"updated_at\": \"2024-08-08T02:36:01.581039\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.1
+    },
+    {
+        "endpoint": "/api/course_ratings",
+        "request_url": "http://localhost/api/course_ratings",
+        "response_status": 201,
+        "response_data": "{\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Thu, 08 Aug 2024 02:36:01 -0000\", \"updated_at\": \"Thu, 08 Aug 2024 02:36:01 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-08T02:36:01.581039\", \"updated_at\": \"2024-08-08T02:36:01.581039\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.09
+    },
+    {
+        "endpoint": "/api/course_ratings/3",
+        "request_url": "http://localhost/api/course_ratings/3",
+        "response_status": 200,
+        "response_data": "{\"id\": 3, \"rating\": 5.0, \"comment\": \"Excellent course!\", \"user_id\": 1, \"course_id\": 1, \"created_at\": \"Thu, 08 Aug 2024 02:36:01 -0000\", \"updated_at\": \"Thu, 08 Aug 2024 02:36:01 -0000\", \"user\": {\"id\": 1, \"username\": \"admin\"}, \"course\": {\"id\": 1, \"title\": \"PDSA 101\", \"description\": \"Test Description\", \"category_id\": 1, \"instructor_id\": 2, \"youtube_playlist\": null, \"created_at\": \"2024-08-08T02:36:01.581039\", \"updated_at\": \"2024-08-08T02:36:01.581039\", \"category\": {\"id\": 0, \"name\": null}, \"instructor\": {\"id\": 2, \"username\": \"instructor\", \"email\": \"instructor@example.com\"}, \"users\": [], \"assignments\": [], \"resources\": [], \"videos\": [], \"lecture_transcripts\": [], \"ratings\": [{\"id\": 1, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 2, \"rating\": 4.5, \"comment\": \"Great course!\", \"user_id\": 1}, {\"id\": 3, \"rating\": 5.0, \"comment\": \"Excellent course!\", \"user_id\": 1}], \"quizzes\": []}}\n",
+        "time_taken": 0.17
+    },
+    {
+        "endpoint": "/api/course_ratings/4",
+        "request_url": "http://localhost/api/course_ratings/4",
+        "response_status": 204,
+        "response_data": "",
+        "time_taken": 0.17
+    }
+]
