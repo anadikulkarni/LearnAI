@@ -1,6 +1,4 @@
-# Soft Engineering Project - May 2024 - SE Team 1
-
- Follow the steps below to set up and run the application.
+Follow the steps below to set up and run the application.
 
 ## Backend Setup
 
