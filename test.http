@@ -1,7 +1,0 @@
-POST http://localhost:11434/api/generate
-
-{
-  "model": "llama3",
-  "prompt": "Hello. Write code for a prime numbers from 1 - 1000 in python",
-  "stream": false
-}
